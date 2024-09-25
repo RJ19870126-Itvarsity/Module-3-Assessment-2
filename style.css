@@ -1,0 +1,297 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+}
+
+.body-home{
+    background-image: url('images/background-01-port.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals{
+    background-image: url('images/background-02-port.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+/*========== HEADER ==========*/
+
+.header{
+    background-color: black;
+    
+    width: 100%;
+    height: 50px;
+    top: 0;
+    
+    position: fixed;
+    overflow: hidden;
+    
+    text-align: center;    
+}
+
+.header i{
+    float: left;
+    padding: 7px 0px 0px 7px;
+    color: white;
+    font-size: 35px;
+}
+
+.header img{
+    width: 300px;
+}
+    
+/*========== HOME PAGE ==========*/
+
+#home-logo-img{
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+/*===== MENU HOME PAGE =====*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+
+/*========== MEALS PAGE ==========*/
+
+#meals{
+    padding-top: 50px;
+    
+}
+
+/*========== MEALS PAGE MENU ==========*/
+
+.meals-list a{
+    text-decoration: none;
+}
+
+.meals-list-item{
+    border: 5px solid white;
+    margin: 10px;
+}
+
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+
+.meals-list-item i{
+    float: right;
+    color: white;
+    padding-right: 10px;
+    font-size: 35px;
+}
+
+/*========== STARTER PAGE ==========*/
+
+#starters{
+    padding-top: 50px;
+}
+
+/*========== STARTER DETAILS ==========*/
+
+.starters-details img{
+    width: 100%;
+}
+
+.starters-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.starters-details h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.starters-details p{
+    margin-left: 10px;
+}
+
+.starters-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.starters-details-info p{
+    font-size: 13px;
+    display: inline-block;
+}
+
+.starters-details-ingredients label{
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.starters-details-ingredients input{
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.starters-details-ingredients form{
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+/*========== ORDER ==========*/
+
+#info-box-full{
+    background-color: rgba(255, 255, 255, .8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+#info-box-full img{
+    width: 100%;
+}
+
+#info-box-full h3{
+    text-align: center;
+}
+
+#info-box-full p{
+    text-align: center;
+}
+
+#tab-top i{
+    font-size: 50px;
+    color: black;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*===== RESPONSIVE LAYOUT =====*/
+
+@media only screen and (min-width: 600px){
+    #meals{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #starters{
+        width: 80%;
+        margin: auto;
+    }
+    
+
+@media only screen and (min-width: 1000px){
+    #meals{
+        width: 60%;
+        margin: auto;
+    }
+    
+    #starters{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (min-width: 1500px){
+    #meals{
+        width: 40%;
+        margin: auto;
+    }
+    
+    #starters{
+        width: 40%;
+        margin: auto;
+    }
+    
+@media only screen and (min-width: 720px){
+    .body-home{
+        background-image: url('images/background-01-land.jpg');
+    }
+    
+    .body-meals{
+        background-image: url('images/background-02-land.jpg');
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
